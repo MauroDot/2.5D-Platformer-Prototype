@@ -1013,6 +1013,24 @@ Transform:
   m_Father: {fileID: 1644170968}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1037756494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1749819985276154389, guid: 88bc103cb136a37408ee211c9218e8e7, type: 3}
+  m_PrefabInstance: {fileID: 1749819984661011035}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1037756500
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037756494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.69, y: 1.58, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1421512963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1301,9 +1319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bef25ee73d241441b10130d3fd7dfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 7
+  _speed: 8
   _gravity: 0.5
-  _jumpHeight: 25
+  _jumpHeight: 50
   _coins: 0
   _lives: 3
 --- !u!143 &1644170970
