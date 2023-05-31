@@ -42,6 +42,7 @@ public class ElevatorPanel : MonoBehaviour
                     // Toggle the elevator on and move towards the origin
                     _elevator.MoveToOrigin();
                     _elevator.ActivateElevator();
+                    _callButton.material.color = Color.red;
                 }
             }
         }
