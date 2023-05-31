@@ -850,8 +850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
-  _gravity: 1
-  _jumpHeight: 45
+  _gravity: 0.5
+  _jumpHeight: 60
   _coins: 0
   _lives: 3
   _pushPower: 2
@@ -927,7 +927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515487862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.5, y: 16.520802, z: 0}
+  m_LocalPosition: {x: -7.75, y: 1.7708015, z: 0}
   m_LocalScale: {x: 1, y: 1.2207989, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
